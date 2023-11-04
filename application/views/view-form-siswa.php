@@ -66,8 +66,8 @@
                     <th>Jenis Kelamin</th>
                     <th>:</th>
                     <td>
-                        <input type="radio" name="jk" id="jk"> Laki-laki
-                        <input type="radio" name="jk" id="jk"> Perempuan
+                        <input type="radio" name="jk" value="Laki-Laki"> Laki-laki
+                        <input type="radio" name="jk" value="Perempuan"> Perempuan
                     </td>
                 </tr>
                 <tr>
@@ -76,13 +76,13 @@
                     <td>
                     <select name="agama" id="agama">
                             <option value="">Pilih agama</option>
-                            <option value="2">Islam</option>
-                            <option value="3">Kristen</option>
-                            <option value="4">Katolik</option>
-                            <option value="5">Budha</option>
-                            <option value="6">Hindu</option>
-                            <option value="7">Protestan</option>
-                            <option value="8">Khonghucu</option>
+                            <option agama="2">Islam</option>
+                            <option agama="3">Kristen</option>
+                            <option agama="4">Katolik</option>
+                            <option agama="5">Budha</option>
+                            <option agama="6">Hindu</option>
+                            <option agama="7">Protestan</option>
+                            <option agama="8">Khonghucu</option>
                         </select>
                     </td>
                 </tr>
